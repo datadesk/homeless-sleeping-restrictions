@@ -1,4 +1,4 @@
-# The effect of proposed homeless sleeping restrictions in Los Angeles
+# The effect of proposed restrictions on where homeless people can sleep in Los Angeles
 
 **By [Matt Stiles](https://twitter.com/stiles) and [Ryan Menezes](https://twitter.com/ryanvmenezes)**
 
