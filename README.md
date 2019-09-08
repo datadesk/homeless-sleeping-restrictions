@@ -1,16 +1,22 @@
 # The effect of proposed homeless sleeping restrictions in Los Angeles
 
-By [Matt Stiles](https://www.latimes.com/la-bio-matt-stiles-staff.html) and [Ryan Menezes](https://www.latimes.com/staff/ryan-menezes)
+**By [Matt Stiles](https://twitter.com/stiles) and [Ryan Menezes](https://twitter.com/ryanvmenezes)**
 
-Los Angeles Times
+**Los Angeles Times**
 
 This repository contains the datasets and code used to examine the effects of a proposed restriction on where the homeless can sleep. [The proposal](proposal-19-0602-S1.pdf) was put forward by Councilmember Mitch O’Farrell at L.A. City Hall in August.
 
-To perform the spatial analysis, the Times used the Python programming language and a popular open-source spatial library, GeoPandas, to plot parks, schools, day care centers and some special venues — and then to draw 500-foot buffers around them. The results were then clipped by neighborhood, and the percentage of buffered area for each neighborhood was calculated.
+To perform the spatial analysis, the Times used the Python programming language and a popular open-source spatial library, GeoPandas, to plot parks, schools, day care centers and some special venues — and then to draw 500-foot buffers around them. The results were then clipped by neighborhood, and the percentage of buffered area for each neighborhood was calculated. We also took steps to estimate the population of homeless people that would be affected by the proposal: Those who, quite literally, are forced to sleep on the street at night (as opposed to those who take shelter in cars or other vehicles). The relevant Python code is detailed in three Jupyter notebooks here.
 
 **The analysis shows that at least 26% of the city -- or about 127 of the city's 476 square miles -- would be excluded for sleeping under the proposed rules. The policy would affect 15,000 homeless Angelenos who sleep on the sidewalks at night.**
 
-## Targeted location types:
+## Read more
+
+* [Maps: Could homeless people sleep in your neighborhood if new rules pass?](https://www.latimes.com/projects/homeless-sleeping-maps/)
+* [Many of L.A.’s sidewalks would be off-limits for homeless people to sleep if plan passes](https://www.latimes.com/california/story/2019-09-08/homeless-sleeping-ban-rules-los-angeles )
+* [L.A. is again considering limits on where homeless people can sleep — this time by schools and parks](https://www.latimes.com/california/story/2019-08-22/homeless-sidewalk-sleeping-ban-restrictions-boise-case-shelter)
+
+## Targeted location types
 
 The proposal isn't yet specific, so we made some assumptions about the types of locations to include. The data for these locations come from city, county and state GIS portals, and they've been clipped to the city's boundaries before the analysis. 
 
