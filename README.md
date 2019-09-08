@@ -8,7 +8,7 @@ This repository contains the datasets and code used to examine the effects of a 
 
 To perform the spatial analysis, the Times used the Python programming language and a popular open-source spatial library, GeoPandas, to plot parks, schools, day care centers and some special venues — and then to draw 500-foot buffers around them. The results were then clipped by neighborhood, and the percentage of buffered area for each neighborhood was calculated.
 
-**The analysis shows that at least 26% of the city -- or about 127 of the city's 476 square miles -- would be excluded for sleeping under the proposed rules. The policy would affect 15,000 homeless Angelenos who are sleep on the sidewalks at night.**
+**The analysis shows that at least 26% of the city -- or about 127 of the city's 476 square miles -- would be excluded for sleeping under the proposed rules. The policy would affect 15,000 homeless Angelenos who sleep on the sidewalks at night.**
 
 ## Targeted location types:
 
@@ -18,7 +18,7 @@ The proposal isn't yet specific, so we made some assumptions about the types of 
 
 * All public schools (polygons from the city)
 * Private schools (polygons extracted from the countywide parcel file)
-* Children’s day care centers (points from the city's spatial database related to parcel files)
+* Children’s day care centers (points from the state's list and related to county parcel records)
 * City, county, regional state parks (only those polygons from the county's parks spatial database that are within the city limits, excluding those categorized as transportation 'parkways', such Metro rail lines)
 * Special venues (polygons extracted manually from the county's parcel file)
   * Staples Center (AIN# 5138016913)
